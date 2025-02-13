@@ -1,0 +1,24 @@
+Introduction to HTML and CSS
+    HTML- raw data that a webpage is built out of (text, links, cards, lists, buttons)
+    CSS- style to the plain elements
+    HTML puts info on a webpage and CSS positions that info, gives it color, font, etc
+    They aren't really programming languages becasue tehy present information, they don't program logic 
+
+HTML=structure of website
+CSS=makes it visually appealing
+JavaScript=robust programming language that changes components to match specs
+
+common web dev languages are HTML CSS JavaScript PHP Python Ruby and SQL
+Ruby and PHP are popular among startups and web developers, entrepreneurs
+Primary languages of HTML CSS and JavaScript
+Ruby is scalable and fast
+With SQL you can maintain a large database in a streamlined manner
+the language you use depends on your specific project and business goals
+
+
+HTML- hyper text markup languagesimplistic yet powerful
+HTML is a good place to start if you've never programmed before
+HTML markups are enhanced by CSS and javascript 
+
+CSS= a static programming language style sheet language thats amost entirely focused on improving the presentation
+CSS is used to create static visual effects
