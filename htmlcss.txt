@@ -16,10 +16,101 @@ With SQL you can maintain a large database in a streamlined manner
 the language you use depends on your specific project and business goals
 
 
-HTML- hyper text markup languagesimplistic yet powerful
+HTML- hyper text markup language simplistic yet powerful
 HTML is a good place to start if you've never programmed before
 HTML markups are enhanced by CSS and javascript 
 
 CSS= a static programming language style sheet language thats amost entirely focused on improving the presentation
 CSS is used to create static visual effects
-....
+
+
+Elements and tags
+
+opening tags tell the browser that this is the start of an HTML element
+comprised of a keyword enclosed in angle brackets <>
+paragraph = <p>
+closing tags have a slash </p>
+<p>some text content</p>
+
+HTML has a vast list of predefined tags that you can use to create all kinds of elements
+
+void elements- elements that don't have a closing tag
+<br>
+<img>
+
+three parts- opening tag, text content, closing tag
+
+always have to have an opening and closing tag
+opening paragraph <p>...</p>
+
+there are hundreds of elements so no use in learning them all at once
+theres a subset that are recurring that we will remember quickly
+h1 is heading
+
+
+HTML Boilerplate
+
+all html docs have the same basic structure or boilerplate that needs to be in place before anything useful can be done
+basic boilerplate
+how to open HTML docs in browser
+
+every HTML page starts with a doctype declaration
+Doctype for the latest HTML version is 
+<!DOCTYPE html>
+
+<!DOCTYPE html>
+<html> lang="en">
+</html>
+
+lang represents an HTML attribute associated with the given HTML tag
+lang specifies language of the text content in that element
+used to imporve accessibility of the webpage and allows assistive tech to adapt according to the language and invoke correct pronunciation
+
+<head> element is where wer put important meta info about our webpages
+required for our webpages to render correctly in the browser
+inside the head we should not use any elemenet that displays content on the webpage
+<head> goes within <html> and should always be the first thing under <html>
+
+we should always have the <meta> tag with the charset encoding of the webpage in the head element
+
+<title>
+gives a title- should always have a title
+otherwise defaults to file name
+which is not meaningful for users
+
+Body element
+last element needed to complete the HTML boilerplate is Body
+this is where all content displayed to users will go
+<body>
+
+Viewing HTML in the browser: several options
+you can click and drag
+you can find in your file system and double click
+you can use terminal to open file in browser
+cd to directory then open ./name.html
+
+Typing an ! will auto fill the boilerplate
+
+What is the purpose of the doctype declaration?
+to tell the browser what version of html to use to render the doc
+
+what is the html element?
+its the root- everything else is a descendeant of it
+
+purpose of head element?
+gives info that is not user facing
+meta information about our webpages- info for them to render correctly
+should not use any element that displays content on the page
+meta element, title element
+
+body
+info that is user facing
+all the content displayed to users will go there
+text, images, lists, links, so on
+
+
+
+Working with text - more elements
+
+<p> is for paragraphs so that you can separate text
+
