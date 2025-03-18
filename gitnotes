@@ -1,5 +1,28 @@
-hello hello hello 
-hi hi hi 
-notes notes notes
-hello odin
-
+how to create a new repo?
+    mkdir
+how to copy a repo from machine to github?
+    git clone URLofgithubrepo
+default name of remote connection?
+    git remote -v output is the default name of the remote connection
+what does origin mean in git push origin main?
+   origin refers to the remote repository that local git repo is linked to. when you clone a repo, git assigns the name origin to it. origin is used to tell git which remote server to push to.
+what is main in git push origin main?
+    main is the branch you want to push to. main is the default name for the primary branch. sometimes the default is master.
+explain two state system that git uses to save files?
+    git status to see that changes were made when u hit ctrl s
+    git add to add to the staging area 
+    git status to check that its there
+    git commit -m "file" to commit to the main branch
+    git log to look at output
+how do you check status of current repo?
+    git status
+how to add files to the staging area?
+    git add 
+how to commit files in staging area and add decreptive message?
+    git commit -m "message"
+push changes to git hub?
+    git push
+    git push origin main
+    git status again to check
+history of commits?
+    git log
