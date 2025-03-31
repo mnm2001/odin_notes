@@ -114,3 +114,25 @@ Working with text - more elements
 
 <p> is for paragraphs so that you can separate text
 
+<h1> <h2> etc are for headings </h2>
+
+<strong> </strong> makes text bold
+
+<em> </em> makes text italic
+
+Nesting:
+<body>
+    <p> bla bla bla 
+</p>
+    <p> bla bla bla. </p>
+</body>
+
+the p is nested under the parent body and the two paragraphs are siblings
+
+HTML comments- not visible to browser
+<!-- to make a comment in HTML surround it like this -->
+
+shortcut: cmd + /
+
+
+
