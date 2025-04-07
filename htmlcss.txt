@@ -134,5 +134,6 @@ HTML comments- not visible to browser
 
 shortcut: cmd + /
 
+lorem - a shortcut in vscode to generate dummy text
 
 
