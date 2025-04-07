@@ -136,4 +136,16 @@ shortcut: cmd + /
 
 lorem - a shortcut in vscode to generate dummy text
 
+Lists:
+-unordered list
+-ordered list
 
+unordered list:
+<ul> element to create unordered list
+    <li> surrounds each list item </li>
+</ul>
+
+ordered list:
+<ol>
+    <li> list item </li>
+</ol>
