@@ -7,6 +7,39 @@
 </head>
 <body>
     <h1>Homepage</h1>
-    <a>About the Odin Project</a>
+    <a href="https://www.theodinproject.com/about">About the Odin Project</a>
+    <!-- href attribute is needed for links
+     you can link anything in this way
+     the default is opening a link in a current tab (_self)-->
+     <p>
+     <a href="https://www.theodinproject.com/about" target= "_blank" rel="noopener noreferrer">About The Odin Project</a>
+     <!-- href= specifies destination link
+        target= specifies where it will be opened (default _self), new tab or window- _blank
+        
+        rel attribute= describes relation between current page and linked document
+        
+        noopener means link opened in new tab/window cant interact with or access original page
+        without it, new page cna use javascript to manipulate original page which is security risk
+        
+        no referrer= privacy and security, prevents new page from knowing where user came from and includes behavior of noopener
+        
+        noopener prevents phishing
+        noreferrer prevents telling the opened link that your webpage links to it
+        -->
+
+    <!-- an absolute link is a link to another website on the internet:
+        made of scheme://domain/path
+        a relative link is a link to a page within our own website:
+        do not include domain name since it is on the same site; only have the file path to the other page relative to the page you are creating it on
+        -->
+    <p>
+    <a href="./pages/about.html">About</a>
+    <!-- you can use about.html alone if they're in the same directory
+        if they're not, you need the directory name so pages/about.html
+        if any problems putting ./ before the link should fix it bc tells it to look for the file/directory relative to the current directory-->
+    <p>    
+        <img src="https://www.theodinproject.com/mstile-310x310.png">
+    <!-- img is a void element- doesn't need a closing tag
+     src tells browser where image file is located -->
 </body>
 </html>
